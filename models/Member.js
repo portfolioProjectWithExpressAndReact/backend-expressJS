@@ -12,3 +12,6 @@ const memberSchema = new mongoose.Schema({
     trim: true
   }
 });
+specialty: { type: String, trim: true, default: '' },
+  bio: { type: String, trim: true, default: '' },
+  avatar: { type: String, default: null },
